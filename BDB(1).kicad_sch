@@ -1884,6 +1884,16 @@
 		)
 		(uuid "3f55320e-ec87-4e58-b6bb-ce8741ea9668")
 	)
+	(text "Hello\n"
+		(exclude_from_sim no)
+		(at 261.874 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e2fc879-c1df-4b4f-ba18-5c6eda80e48f")
+	)
 	(text "Spare"
 		(exclude_from_sim no)
 		(at 126.2823 158.8118 0)
