@@ -1884,16 +1884,6 @@
 		)
 		(uuid "3f55320e-ec87-4e58-b6bb-ce8741ea9668")
 	)
-	(text "Hello\n"
-		(exclude_from_sim no)
-		(at 261.874 99.314 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4e2fc879-c1df-4b4f-ba18-5c6eda80e48f")
-	)
 	(text "Spare"
 		(exclude_from_sim no)
 		(at 126.2823 158.8118 0)
@@ -3031,6 +3021,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 31.75) (xy 214.63 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9601631a-1179-4926-8f13-be278665ff47")
+	)
+	(wire
+		(pts
 			(xy 125.73 120.65) (xy 125.73 123.19)
 		)
 		(stroke
@@ -3211,16 +3211,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 25.4) (xy 170.18 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6b67cc4-ce74-41f1-b348-3b7e6f8de603")
-	)
-	(wire
-		(pts
 			(xy 165.1 163.83) (xy 189.23 163.83)
 		)
 		(stroke
@@ -3308,6 +3298,16 @@
 			(type default)
 		)
 		(uuid "bec2dd13-a839-42d1-91a5-ac9df211ea30")
+	)
+	(wire
+		(pts
+			(xy 170.18 25.4) (xy 170.18 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4829b71-e8bf-41b1-9942-2b51a5bf2067")
 	)
 	(wire
 		(pts
@@ -3807,7 +3807,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "2200 Ohms"
 			(at 68.58 120.6499 0)
 			(hide yes)
 			(show_name no)
@@ -4582,7 +4582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3695858d-13ab-4458-86ed-b287b2a3b2a6")
-		(property "Reference" "U2"
+		(property "Reference" "BTS50010-1TAD"
 			(at 135.89 111.1249 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4666,7 +4666,7 @@
 			)
 			(project "BDB(1)"
 				(path "/40ce4f42-1f45-4756-9148-b7252bc52a9c"
-					(reference "U2")
+					(reference "BTS50010-1TAD")
 					(unit 1)
 				)
 			)
@@ -4684,7 +4684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36fb521e-9500-4411-bc71-6e91ad12cb21")
-		(property "Reference" "IC2"
+		(property "Reference" "H20N50(F)"
 			(at 120.65 67.9449 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4756,7 +4756,7 @@
 			)
 			(project "BDB(1)"
 				(path "/40ce4f42-1f45-4756-9148-b7252bc52a9c"
-					(reference "IC2")
+					(reference "H20N50(F)")
 					(unit 1)
 				)
 			)
@@ -4859,7 +4859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a027ab3-ff38-4cef-b7e5-7711ebf5e025")
-		(property "Reference" "IC1"
+		(property "Reference" "H20N50(F)"
 			(at 81.28 67.9449 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4931,7 +4931,7 @@
 			)
 			(project "BDB(1)"
 				(path "/40ce4f42-1f45-4756-9148-b7252bc52a9c"
-					(reference "IC1")
+					(reference "H20N50(F)")
 					(unit 1)
 				)
 			)
@@ -5651,7 +5651,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1000 Ohms"
 			(at 96.52 86.3599 0)
 			(hide yes)
 			(show_name no)
@@ -5813,14 +5813,15 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8485c9b5-7063-4e32-9281-59dd4e6cf3e0")
-		(property "Reference" "J1"
-			(at 72.517 41.91 0)
+		(property "Reference" "B1"
+			(at 78.74 47.7519 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" ""
@@ -5881,7 +5882,7 @@
 			)
 			(project "BDB(1)"
 				(path "/40ce4f42-1f45-4756-9148-b7252bc52a9c"
-					(reference "J1")
+					(reference "B1")
 					(unit 1)
 				)
 			)
@@ -5987,7 +5988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bcdc29c-8cbf-4ec9-adca-aaf27df16038")
-		(property "Reference" "U1"
+		(property "Reference" "BTS50010-1TAD"
 			(at 100.33 111.1249 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6071,7 +6072,7 @@
 			)
 			(project "BDB(1)"
 				(path "/40ce4f42-1f45-4756-9148-b7252bc52a9c"
-					(reference "U1")
+					(reference "BTS50010-1TAD")
 					(unit 1)
 				)
 			)
@@ -6187,7 +6188,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1000 Ohms"
 			(at 132.08 88.8999 0)
 			(hide yes)
 			(show_name no)
@@ -6785,7 +6786,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "150 nF"
 			(at 106.6862 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6863,7 +6864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfbaf075-7298-4524-8849-49828e5017cd")
-		(property "Reference" "J2"
+		(property "Reference" "B2"
 			(at 172.847 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6931,7 +6932,7 @@
 			)
 			(project "BDB(1)"
 				(path "/40ce4f42-1f45-4756-9148-b7252bc52a9c"
-					(reference "J2")
+					(reference "B2")
 					(unit 1)
 				)
 			)
@@ -6959,7 +6960,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "150 nF"
 			(at 142.2462 91.44 0)
 			(hide yes)
 			(show_name no)
