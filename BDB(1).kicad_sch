@@ -1917,6 +1917,16 @@
 		)
 		(uuid "9801ed81-37e6-493b-8467-59886f345e39")
 	)
+	(text "Voltage Regultor to be replaced here\n"
+		(exclude_from_sim no)
+		(at 218.44 68.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aa85fa02-69f9-43a1-8fc7-eb918979d040")
+	)
 	(text "Spare"
 		(exclude_from_sim no)
 		(at 110.49 158.78 0)
